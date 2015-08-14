@@ -17,7 +17,7 @@ var SetupUtil = {
   },
   pathDoesNotExistOrDenied: function (path) {
     if(util.isWindows()) {
-      return (fs.existsSync(path));
+      return (!fs.existsSync(path));
     } else {
       return (!fs.existsSync(path) || this.pathDenied(path));
     }

@@ -21,7 +21,7 @@ var VirtualBox = {
   },
   installed: function () {
     if(util.isWindows()) {
-      return fs.existsSync('C:\\') && fs.existsSync('C:\\');
+      return fs.existsSync('C:\\Program Files\\Oracle\\VirtualBox\\VBoxManage.exe') && fs.existsSync('C:\\Program Files\\Oracle\\VirtualBox\\VirtualBox.exe');
     } else {
       return fs.existsSync('/Applications/VirtualBox.app') && fs.existsSync('/Applications/VirtualBox.app/Contents/MacOS/VBoxManage');
     }
