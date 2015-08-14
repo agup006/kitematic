@@ -59,7 +59,7 @@ var SetupUtil = {
   },
   installVirtualBoxCmd: function () {
     if(util.isWindows()) {
-      return `powershell.exe -ExecutionPolicy unrestricted -Command "Start-Process \\\"${path.join(util.supportDir(), virtualBox.filename())}\\\" -ArgumentList \\\"--silent --msiparams REBOOT=ReallySuppress\\\" -Verb runAs -Wait"`;
+      return `powershell.exe -ExecutionPolicy unrestricted -Command "ls"`;
     } else {
       return `installer -pkg ${util.escapePath(path.join(util.supportDir(), virtualBox.filename()))} -target /`;
     }
