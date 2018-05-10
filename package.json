@@ -39,7 +39,7 @@
     "bugsnag-js": "^2.4.7",
     "classnames": "^1.2.0",
     "coveralls": "^2.11.2",
-    "deep-extend": "^0.4.0",
+    "deep-extend": "^0.5.1",
     "dockerode": "^2.1.4",
     "exec": "0.2.0",
     "install": "^0.1.8",
