@@ -47,7 +47,7 @@
     "mixpanel": "kitematic/mixpanel-node",
     "mkdirp": "^0.5.0",
     "node-uuid": "^1.4.3",
-    "npm": "^2.9.1",
+    "npm": "^6.13.4",
     "object-assign": "^2.0.0",
     "osx-release": "^1.1.0",
     "parseUri": "^1.2.3-2",
