@@ -54,7 +54,7 @@
     "react": "^0.13.1",
     "react-bootstrap": "^0.20.3",
     "react-retina-image": "^1.1.2",
-    "react-router": "^0.13.3",
+    "react-router": "^6.30.2",
     "request": "^2.55.0",
     "request-progress": "^0.3.1",
     "rimraf": "^2.3.2",
